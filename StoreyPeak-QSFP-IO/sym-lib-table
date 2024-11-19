@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name StoreyPeak-QSFP-IO-rescue)(type Legacy)(uri ${KIPRJMOD}/StoreyPeak-QSFP-IO-rescue.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "StoreyPeak-QSFP-IO-rescue")(type "Legacy")(uri "${KIPRJMOD}/StoreyPeak-QSFP-IO-rescue.lib")(options "")(descr ""))
 )
