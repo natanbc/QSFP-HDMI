@@ -5,6 +5,108 @@
 	(uuid "09a4c8ee-e8d7-4980-8dc1-43a8ae75179d")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -137,6 +239,88 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -3206,6 +3390,12 @@
 		(uuid "37b2428b-33e0-43e1-bd9b-1e274891f1aa")
 	)
 	(junction
+		(at 152.4 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37d5a67a-46b4-40c7-9692-59da9da04fe5")
+	)
+	(junction
 		(at 92.71 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3216,6 +3406,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "421176fb-0fc0-4029-ba69-acde4cc4508f")
+	)
+	(junction
+		(at 22.86 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45a8dcc1-1c07-4e4f-af1f-387134d57e3c")
 	)
 	(junction
 		(at 161.29 148.59)
@@ -3296,6 +3492,12 @@
 		(uuid "a117088d-61bf-4b78-89a9-591954f1a563")
 	)
 	(junction
+		(at 81.28 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5ed689e-14e9-48aa-af6d-22954c96dc67")
+	)
+	(junction
 		(at 69.85 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3336,6 +3538,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be231d57-d76e-4101-87fd-914aabf3dc62")
+	)
+	(junction
+		(at 151.13 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0f83d74-79cc-4a2c-9d0a-4917ac708287")
 	)
 	(junction
 		(at 110.49 156.21)
@@ -3551,7 +3759,7 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 156.21) (xy 34.29 156.21)
+			(xy 16.51 156.21) (xy 22.86 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3568,6 +3776,16 @@
 			(type default)
 		)
 		(uuid "0dcb7881-3cc0-4e90-9d59-7525cc8294e9")
+	)
+	(wire
+		(pts
+			(xy 152.4 99.06) (xy 153.67 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fd74cea-be12-414a-a7a5-f5ebe431b39d")
 	)
 	(wire
 		(pts
@@ -4551,7 +4769,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 99.06) (xy 153.67 99.06)
+			(xy 109.22 99.06) (xy 152.4 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5108,6 +5326,16 @@
 			(type default)
 		)
 		(uuid "dc5ec90f-ef1f-4a1e-8e51-a2f60985a9d7")
+	)
+	(wire
+		(pts
+			(xy 22.86 156.21) (xy 34.29 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc6c6e20-c1fb-436e-8706-d2e5e88b0179")
 	)
 	(wire
 		(pts
@@ -6286,6 +6514,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 106.68 22.86 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08c7465f-5140-4c38-bdec-5581797c0a99")
+		(property "Reference" "H2"
+			(at 109.22 21.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 109.22 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 106.68 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 106.68 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "StoreyPeak-QSFP-IO"
+				(path "/09a4c8ee-e8d7-4980-8dc1-43a8ae75179d"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:0402CG200J500NT")
 		(at 113.03 142.24 90)
 		(unit 1)
@@ -6523,6 +6815,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 106.68 26.67 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a5ad873-6d9c-41ca-b4f9-40316a0a0fbb")
+		(property "Reference" "H3"
+			(at 109.22 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 109.22 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 106.68 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 106.68 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "StoreyPeak-QSFP-IO"
+				(path "/09a4c8ee-e8d7-4980-8dc1-43a8ae75179d"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:KH-TYPE-C-16P-T")
 		(at 53.34 132.08 0)
 		(unit 1)
@@ -6733,6 +7089,207 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 151.13 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "611ef164-858a-43d5-a9cf-bf9ec728255d")
+		(property "Reference" "TP3"
+			(at 153.67 86.8679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "FPGA_RX"
+			(at 153.67 89.4079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 156.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 151.13 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0548fb92-e349-4302-8056-37f65f95cb45")
+		)
+		(instances
+			(project "StoreyPeak-QSFP-IO"
+				(path "/09a4c8ee-e8d7-4980-8dc1-43a8ae75179d"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 81.28 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6158f2d0-82cf-46c0-8262-29e33dd79b5e")
+		(property "Reference" "TP1"
+			(at 83.82 89.4079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V"
+			(at 83.82 91.9479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 86.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 81.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e601995-4b92-45b8-8e67-e9bb5fdddfa5")
+		)
+		(instances
+			(project "StoreyPeak-QSFP-IO"
+				(path "/09a4c8ee-e8d7-4980-8dc1-43a8ae75179d"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 22.86 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ffa86ea-6840-466c-8fb6-238d86e868bf")
+		(property "Reference" "TP2"
+			(at 25.4 151.6379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.4 154.1779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 27.94 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 22.86 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "967d00be-aa0d-42b2-bce1-8485143272a1")
+		)
+		(instances
+			(project "StoreyPeak-QSFP-IO"
+				(path "/09a4c8ee-e8d7-4980-8dc1-43a8ae75179d"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:CH340G")
 		(at 124.46 113.03 0)
 		(unit 1)
@@ -6846,6 +7403,73 @@
 			(project "StoreyPeak-QSFP-IO"
 				(path "/09a4c8ee-e8d7-4980-8dc1-43a8ae75179d"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 152.4 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7558187e-17b7-4b9b-a822-f39c585bbcf5")
+		(property "Reference" "TP4"
+			(at 154.94 94.4879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "FPGA_TX"
+			(at 154.94 97.0279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 157.48 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 152.4 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b629306-5722-4059-a600-9aee5a1d2d78")
+		)
+		(instances
+			(project "StoreyPeak-QSFP-IO"
+				(path "/09a4c8ee-e8d7-4980-8dc1-43a8ae75179d"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -7101,6 +7725,134 @@
 			(project "StoreyPeak-QSFP-IO"
 				(path "/09a4c8ee-e8d7-4980-8dc1-43a8ae75179d"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 106.68 19.05 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8637627-98fc-4824-a3b7-baff11c76967")
+		(property "Reference" "H1"
+			(at 109.22 17.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 109.22 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 106.68 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 106.68 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "StoreyPeak-QSFP-IO"
+				(path "/09a4c8ee-e8d7-4980-8dc1-43a8ae75179d"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 106.68 30.48 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2384eb7-1101-47b1-973c-d39915457cb8")
+		(property "Reference" "H4"
+			(at 109.22 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 109.22 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 106.68 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 106.68 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "StoreyPeak-QSFP-IO"
+				(path "/09a4c8ee-e8d7-4980-8dc1-43a8ae75179d"
+					(reference "H4")
 					(unit 1)
 				)
 			)
