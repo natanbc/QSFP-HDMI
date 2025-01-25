@@ -4575,6 +4575,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 133.35) (xy 214.63 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c0de0df-51c9-44af-a849-3ab55c13e30a")
+	)
+	(wire
+		(pts
 			(xy 16.51 33.02) (xy 39.37 33.02)
 		)
 		(stroke
@@ -7922,6 +7932,73 @@
 			(project "StoreyPeak-QSFP-IO"
 				(path "/09a4c8ee-e8d7-4980-8dc1-43a8ae75179d"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 214.63 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad316ff5-07c2-4234-b24f-1f952057bad8")
+		(property "Reference" "TP7"
+			(at 217.17 128.7779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 131.3179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 219.71 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 214.63 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb7c1dc2-0308-4d77-be35-5b1c0233f3af")
+		)
+		(instances
+			(project "StoreyPeak-QSFP-IO"
+				(path "/09a4c8ee-e8d7-4980-8dc1-43a8ae75179d"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
