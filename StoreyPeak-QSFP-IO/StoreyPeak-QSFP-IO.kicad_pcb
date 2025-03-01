@@ -1510,7 +1510,7 @@
 			(uuid "79e31048-072a-4a40-a625-26bb0b5f046b")
 		)
 		(fp_text user "19"
-			(at 0.2 0.6 -90)
+			(at 15 0.6 -90)
 			(layer "B.SilkS")
 			(uuid "4a850cb6-bb24-4274-a902-e49f34f0a0e3")
 			(effects
@@ -1522,7 +1522,7 @@
 			)
 		)
 		(fp_text user "1"
-			(at 15.4 0.4 -90)
+			(at -0.2 0.4 -90)
 			(layer "B.SilkS")
 			(uuid "e5203297-b913-4288-a576-12a92185cb52")
 			(effects
@@ -1556,7 +1556,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at 14.8 -1.5)
+			(at 0.4 -1.5)
 			(size 0.6 2.5)
 			(drill
 				(offset 0 -0.05)
@@ -1568,7 +1568,7 @@
 			(uuid "19b0959e-a79b-43b2-a5ad-525ced7e9131")
 		)
 		(pad "2" smd rect
-			(at 14 -1.5)
+			(at 1.2 -1.5)
 			(size 0.6 2.5)
 			(drill
 				(offset 0 -0.05)
@@ -1580,7 +1580,7 @@
 			(uuid "a24ddb4f-c217-42ca-b6cb-d12da84fb2b9")
 		)
 		(pad "3" smd rect
-			(at 13.2 -1.5)
+			(at 2 -1.5)
 			(size 0.6 2.5)
 			(drill
 				(offset 0 -0.05)
@@ -1592,7 +1592,7 @@
 			(uuid "e67b9f8c-019b-4145-98a4-96545f6bb128")
 		)
 		(pad "4" smd rect
-			(at 12.4 -1.5)
+			(at 2.8 -1.5)
 			(size 0.6 2.5)
 			(drill
 				(offset 0 -0.05)
@@ -1604,7 +1604,7 @@
 			(uuid "7c04618d-9115-4179-b234-a8faf854ea92")
 		)
 		(pad "5" smd rect
-			(at 11.6 -1.5)
+			(at 3.6 -1.5)
 			(size 0.6 2.5)
 			(drill
 				(offset 0 -0.05)
@@ -1616,7 +1616,7 @@
 			(uuid "5fc9acb6-6dbb-4598-825b-4b9e7c4c67c4")
 		)
 		(pad "6" smd rect
-			(at 10.8 -1.5)
+			(at 4.4 -1.5)
 			(size 0.6 2.5)
 			(drill
 				(offset 0 -0.05)
@@ -1628,7 +1628,7 @@
 			(uuid "18b7e157-ae67-48ad-bd7c-9fef6fe45b22")
 		)
 		(pad "7" smd rect
-			(at 10 -1.5)
+			(at 5.2 -1.5)
 			(size 0.6 2.5)
 			(drill
 				(offset 0 -0.05)
@@ -1640,7 +1640,7 @@
 			(uuid "a53767ed-bb28-4f90-abe0-e0ea734812a4")
 		)
 		(pad "8" smd rect
-			(at 9.2 -1.5)
+			(at 6 -1.5)
 			(size 0.6 2.5)
 			(drill
 				(offset 0 -0.05)
@@ -1652,7 +1652,7 @@
 			(uuid "f9403623-c00c-4b71-bc5c-d763ff009386")
 		)
 		(pad "9" smd rect
-			(at 8.4 -1.5)
+			(at 6.8 -1.5)
 			(size 0.6 2.5)
 			(drill
 				(offset 0 -0.05)
@@ -1676,7 +1676,7 @@
 			(uuid "e502d1d5-04b0-4d4b-b5c3-8c52d09668e7")
 		)
 		(pad "11" smd rect
-			(at 6.8 -1.5)
+			(at 8.4 -1.5)
 			(size 0.6 2.5)
 			(drill
 				(offset 0 -0.05)
@@ -1688,7 +1688,7 @@
 			(uuid "998b7fa5-31a5-472e-9572-49d5226d6098")
 		)
 		(pad "12" smd rect
-			(at 6 -1.5)
+			(at 9.2 -1.5)
 			(size 0.6 2.5)
 			(drill
 				(offset 0 -0.05)
@@ -1700,7 +1700,7 @@
 			(uuid "0f31f11f-c374-4640-b9a4-07bbdba8d354")
 		)
 		(pad "13" smd rect
-			(at 5.2 -1.5)
+			(at 10 -1.5)
 			(size 0.6 2.5)
 			(drill
 				(offset 0 -0.05)
@@ -1712,7 +1712,7 @@
 			(uuid "6d1d60ff-408a-47a7-892f-c5cf9ef6ca75")
 		)
 		(pad "14" smd rect
-			(at 4.4 -1.5)
+			(at 10.8 -1.5)
 			(size 0.6 2.5)
 			(drill
 				(offset 0 -0.05)
@@ -1724,7 +1724,7 @@
 			(uuid "e4aa537c-eb9d-4dbb-ac87-fae46af42391")
 		)
 		(pad "15" smd rect
-			(at 3.6 -1.5)
+			(at 11.6 -1.5)
 			(size 0.6 2.5)
 			(drill
 				(offset 0 -0.05)
@@ -1736,7 +1736,7 @@
 			(uuid "b6135480-ace6-42b2-9c47-856ef57cded1")
 		)
 		(pad "16" smd rect
-			(at 2.8 -1.5)
+			(at 12.4 -1.5)
 			(size 0.6 2.5)
 			(drill
 				(offset 0 -0.05)
@@ -1748,7 +1748,7 @@
 			(uuid "970e0f64-111f-41e3-9f5a-fb0d0f6fa101")
 		)
 		(pad "17" smd rect
-			(at 2 -1.5)
+			(at 13.2 -1.5)
 			(size 0.6 2.5)
 			(drill
 				(offset 0 -0.05)
@@ -1760,7 +1760,7 @@
 			(uuid "065b9982-55f2-4822-977e-07e8a06e7b35")
 		)
 		(pad "18" smd rect
-			(at 1.2 -1.5)
+			(at 14 -1.5)
 			(size 0.6 2.5)
 			(drill
 				(offset 0 -0.05)
@@ -1772,7 +1772,7 @@
 			(uuid "dc2801a1-d539-4721-b31f-fe196b9f13df")
 		)
 		(pad "19" smd rect
-			(at 0.4 -1.5)
+			(at 14.8 -1.5)
 			(size 0.6 2.5)
 			(drill
 				(offset 0 -0.05)
