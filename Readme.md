@@ -13,8 +13,6 @@ The concept has been created to be used on the Microsoft Stratix V FPGA accelera
 - [Part 7](https://j-marjanovic.io/stratix-v-accelerator-card-from-ebay-part-7.html)
 - [Part 8](https://j-marjanovic.io/stratix-v-accelerator-card-from-ebay-part-8.html)
 
-**The project was not tested or manufactured yet.**
-
 ## Subprojects
 
 ### 1. QSFP breakout board
@@ -29,9 +27,9 @@ This subproject focuses on the design and implementation of an adapter that conv
 
 - QSFP connector for input signals
 - HDMI connector for output signals
-- UART connector for debugging and monitoring
-- 2 push buttons for user interaction
-- 2 LEDs for visual feedback
+- USB-C connector for UART adapter
+
+This board has been manufactured in JLCPCB, and has LCSC part numbers allowing assembly by them as well. Be sure to use 1mm PCBs to fit into the QSFP slot.
 
 ![PCB_1](./StoreyPeak-QSFP-IO/QSFP_IO1.jpg)
 
