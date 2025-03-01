@@ -31,8 +31,6 @@ This subproject focuses on the design and implementation of an adapter that conv
 
 This board has been manufactured in JLCPCB, and has LCSC part numbers allowing assembly by them as well. Be sure to use 1mm PCBs to fit into the QSFP slot.
 
-# THIS VERSION IS BROKEN! DO NOT BUILD IT!
-
 ![PCB_1](./StoreyPeak-QSFP-IO/QSFP_IO1.jpg)
 
 ![PCB_2](./StoreyPeak-QSFP-IO/QSFP_IO2.jpg)
