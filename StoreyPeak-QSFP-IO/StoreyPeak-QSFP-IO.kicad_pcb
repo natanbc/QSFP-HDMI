@@ -7703,18 +7703,6 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "3V3"
-		(at 161.85 89.675 -0)
-		(layer "B.SilkS")
-		(uuid "829d7121-794f-4511-a0c5-5a487ada63aa")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify mirror)
-		)
-	)
 	(segment
 		(start 168.825 63.375)
 		(end 166.775 63.375)
