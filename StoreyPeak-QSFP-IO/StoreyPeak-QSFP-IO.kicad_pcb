@@ -7909,7 +7909,7 @@
 			)
 		)
 		(property "Value" "FPGA_TX"
-			(at 0 2.05 0)
+			(at -2.925 1.69 90)
 			(layer "B.SilkS")
 			(uuid "fd8d9b7f-03d9-46a2-95d9-f9b46a7036c4")
 			(effects
@@ -8046,6 +8046,172 @@
 	)
 	(footprint "TestPoint:TestPoint_Pad_1.5x1.5mm"
 		(layer "B.Cu")
+		(uuid "49cb3c54-037c-43c2-81f2-49d52e1babee")
+		(at 162.75 86.45)
+		(descr "SMD rectangular pad as test Point, square 1.5mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "3V3"
+			(at -2.76 0.5 180)
+			(layer "B.SilkS")
+			(uuid "02571e03-bd97-489a-811c-89eee91897cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "3V3"
+			(at 0 -1.75 180)
+			(layer "B.Fab")
+			(uuid "bb8a98c1-e1f8-4044-9baf-4e8784f0e781")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "12814214-becc-4421-bfc7-793c7bf9ad01")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "45de3477-c61f-41e4-8898-7afb257dae8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/e5fd1b4f-309b-48e9-b459-203cc7a3c11c")
+		(sheetname "/")
+		(sheetfile "StoreyPeak-QSFP-IO.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -0.95 -0.95)
+			(end -0.95 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "08116aa9-ca7f-4e17-8b8b-7c18d6b5d63a")
+		)
+		(fp_line
+			(start -0.95 0.95)
+			(end 0.95 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "395956bf-0437-46a2-a288-539271481c52")
+		)
+		(fp_line
+			(start 0.95 -0.95)
+			(end -0.95 -0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "36eaa8aa-09b6-4518-9526-91982e57f7e1")
+		)
+		(fp_line
+			(start 0.95 0.95)
+			(end 0.95 -0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "214623e4-aae6-4618-a24c-0bd5a8375214")
+		)
+		(fp_line
+			(start -1.25 1.25)
+			(end -1.25 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "88f8bb8e-3936-4db5-af61-5ab203f31a20")
+		)
+		(fp_line
+			(start -1.25 1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "2c7dce0d-514d-4dfd-82ca-1ec624a70ad1")
+		)
+		(fp_line
+			(start 1.25 -1.25)
+			(end -1.25 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "30b1530c-9fcd-4fcf-bd10-d9a984e58c92")
+		)
+		(fp_line
+			(start 1.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "be8f98db-997b-475f-aa2a-e389bc795778")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 1.65 180)
+			(layer "B.Fab")
+			(uuid "7e5d83a6-dacf-4323-834c-76cae53ed4ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd rect
+			(at 0 0)
+			(size 1.5 1.5)
+			(layers "B.Cu" "B.Mask")
+			(net 41 "+3V3")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "97200c24-6a6a-4a80-b9ed-16ce1df26628")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(layer "B.Cu")
 		(uuid "6c5312d8-95d2-4295-a3a2-49b3fd43511f")
 		(at 162.75 83.95 180)
 		(descr "SMD rectangular pad as test Point, square 1.5mm side length")
@@ -8064,7 +8230,7 @@
 			)
 		)
 		(property "Value" "FPGA_RX"
-			(at 0.5 -1.75 0)
+			(at 2.72 1.68 90)
 			(layer "B.SilkS")
 			(uuid "c01f5dd3-5212-4816-acc5-82b417cdcaf6")
 			(effects
@@ -8225,7 +8391,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 166.675 88.2 -0)
+		(at 169.43 87.11 -0)
 		(layer "B.SilkS")
 		(uuid "3286cf93-9f49-4ede-a20c-ad9b0a161f5f")
 		(effects

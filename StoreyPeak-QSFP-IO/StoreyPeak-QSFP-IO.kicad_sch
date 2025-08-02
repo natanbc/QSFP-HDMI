@@ -3713,6 +3713,12 @@
 		(uuid "5d16cf73-e370-4ee8-9813-d701722561fe")
 	)
 	(junction
+		(at 146.05 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6be88768-b7a7-410b-b475-dca7b3b05a5f")
+	)
+	(junction
 		(at 255.27 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4622,6 +4628,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 93.98) (xy 181.61 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91e8885e-2dc8-4fff-b5ef-48ae4ed4c29e")
+	)
+	(wire
+		(pts
 			(xy 69.85 17.78) (xy 16.51 17.78)
 		)
 		(stroke
@@ -4732,7 +4748,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 93.98) (xy 181.61 93.98)
+			(xy 138.43 93.98) (xy 146.05 93.98)
 		)
 		(stroke
 			(width 0)
@@ -9425,6 +9441,73 @@
 			(project "StoreyPeak-QSFP-IO"
 				(path "/09a4c8ee-e8d7-4980-8dc1-43a8ae75179d"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 146.05 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5fd1b4f-309b-48e9-b459-203cc7a3c11c")
+		(property "Reference" "TP8"
+			(at 148.59 89.4079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 148.59 91.9479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 151.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 146.05 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ccc140e9-e611-4406-9be8-a9e86b5e820c")
+		)
+		(instances
+			(project "StoreyPeak-QSFP-IO"
+				(path "/09a4c8ee-e8d7-4980-8dc1-43a8ae75179d"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
