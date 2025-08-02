@@ -7981,7 +7981,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CarlosEDP_Lib:QSFP_PCB"
+		(property "Footprint" "natanbc:QSFP-Edge"
 			(at 234.95 99.06 0)
 			(effects
 				(font
